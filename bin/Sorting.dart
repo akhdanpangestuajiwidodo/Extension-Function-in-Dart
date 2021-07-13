@@ -10,7 +10,7 @@ extension Sorting on List<int>{
           min = j;
         }
       }
-      
+
       int tmp = list[min];
       list[min] = list[i];
       list[i] = tmp;
